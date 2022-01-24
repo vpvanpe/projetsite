@@ -1,3 +1,11 @@
+body {
+    background: linear-gradient(rgb(71, 70, 70), #e2dfdf);
+}
+#logo {
+    width: 100px;
+	height: 100px;
+    margin-left: 50px
+}
 .menu {
     display: flex;                
     padding:0;                  
@@ -23,14 +31,6 @@
     background-color: #fdf9fb;
     color: #0e0d0d;
 }
-body {
-    background: linear-gradient(rgb(71, 70, 70), #e2dfdf);
-}
-#logo {
-    width: 100px;
-	height: 100px;
-    margin-left: 50px
-}
 footer{
     position: absolute;
     bottom: 0;
@@ -40,5 +40,16 @@ footer{
     height: auto;
     width: 100vw;
     color: #fff;
-    text-align: center;
+}    
+footer h3, p {  
+    margin-left: 30px; 
+    margin-top: 30px;
+}
+
+footer img{
+    width: 30px;
+    height: 30px;
+    float: right;
+    margin-right: 30px;
+    margin-bottom: 30px;
 }
