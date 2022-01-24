@@ -1,5 +1,6 @@
 body {
     background: linear-gradient(rgb(71, 70, 70), #e2dfdf);
+	font-family: monospace;
 }
 #logo {
     width: 100px;
@@ -30,6 +31,11 @@ body {
 .menu a:hover,.menu a:hover.actif {
     background-color: #fdf9fb;
     color: #0e0d0d;
+}
+h2 {
+    font-size: 25px;
+    margin: 10px;
+    font-weight: bold;
 }
 footer{
     position: absolute;
