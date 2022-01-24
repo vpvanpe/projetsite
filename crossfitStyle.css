@@ -67,3 +67,10 @@ footer img{
     margin-right: 30px;
     margin-bottom: 30px;
 }
+#flex {
+    margin: 30px;
+    display: flex;
+}
+#contact {
+    margin: 50px;
+}
