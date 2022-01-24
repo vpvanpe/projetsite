@@ -7,7 +7,7 @@ h1 {
 body {
     background: linear-gradient(rgb(71, 70, 70), #e2dfdf);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    line-height: 2em;
+    
 }
 article {
     margin: 30px;
@@ -72,9 +72,13 @@ footer img{
     margin-bottom: 30px;
 }
 #flex {
-    margin: 30px;
+    margin-left: 30px;
     display: flex;
+    padding: auto;
 }
 #contact {
     margin: 50px;
+}
+main {
+    line-height: 2em;
 }
