@@ -23,3 +23,13 @@
     background-color: #fdf9fb;
     color: #0e0d0d;
 }
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(0, 0, 0);
+    height: auto;
+    width: 100vw;
+    color: #fff;
+}
