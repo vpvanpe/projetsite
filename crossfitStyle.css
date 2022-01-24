@@ -28,7 +28,7 @@ body {
     color: #fff;                  
     text-decoration: none;        
 }
-.menu a:hover,.menu a:hover.actif {
+.menu a:hover,.menu a:hover.actif, #encours {
     background-color: #fdf9fb;
     color: #0e0d0d;
 }
