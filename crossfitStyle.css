@@ -1,0 +1,25 @@
+.menu {
+    display: flex;                
+    padding:0;                  
+    background-color: rgb(3, 3, 3);      
+    justify-content: space-around;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 18px;
+}
+.menu li {
+    list-style-type: none ;      
+  
+}
+.menu a {
+    display:block;               
+    min-width: 120px;               
+    margin: 0.5rem;               
+    text-align: center;          
+    color: #fff;                  
+    text-decoration: none;        
+}
+.menu a:hover,.menu a:hover.actif {
+    background-color: #fdf9fb;
+    color: #0e0d0d;
+}
