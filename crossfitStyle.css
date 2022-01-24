@@ -23,6 +23,14 @@
     background-color: #fdf9fb;
     color: #0e0d0d;
 }
+body {
+    background: linear-gradient(rgb(71, 70, 70), #e2dfdf);
+}
+#logo {
+    width: 100px;
+	height: 100px;
+    margin-left: 50px
+}
 footer{
     position: absolute;
     bottom: 0;
@@ -32,4 +40,5 @@ footer{
     height: auto;
     width: 100vw;
     color: #fff;
+    text-align: center;
 }
