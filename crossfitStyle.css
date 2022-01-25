@@ -8,7 +8,7 @@
         font-weight: bold;
         font-size: 18px;
     }
-    img {
+    img, iframe {
         width: 100%;
         height: auto;
     }
