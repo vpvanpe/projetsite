@@ -11,6 +11,7 @@ body {
 }
 article {
     margin: 30px;
+    line-height: 2em;
 }
 #logo {
     float: left;
@@ -49,16 +50,12 @@ h2 {
     font-weight: bold;
 }
 
-footer{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgb(0, 0, 0);
-    height: auto;
-    width: 100vw;
-    color: #fff;
-}    
+footer {
+    padding:50px 0;
+    color:#f0f9ff;
+    background-color:black;
+} 
+
 footer h3, p {  
     margin-left: 30px; 
     margin-top: 30px;
@@ -78,7 +75,4 @@ footer img{
 }
 #contact {
     margin: 50px;
-}
-main {
-    line-height: 2em;
 }
